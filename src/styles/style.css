@@ -135,6 +135,10 @@ body {
     font-weight: 500;
 }
 
+.results__info:last-child {
+    margin-bottom: 0;
+}
+
 @media only screen and (min-width: 1200px) {
     .results {
         grid-template-columns: repeat(4, 1fr);
